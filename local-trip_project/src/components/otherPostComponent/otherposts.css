@@ -1,0 +1,23 @@
+.swiper-container {
+  position: absolute;
+  z-index: 2;
+  height: 55%;
+  width: 100%;
+  padding-top: 12%;
+}
+
+.swiper-slide {
+  background-position: center;
+  background-size: cover;
+  width: 45%;
+  height: 100%;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+}
+
+.hiddenSwiper {
+  visibility: hidden;
+}

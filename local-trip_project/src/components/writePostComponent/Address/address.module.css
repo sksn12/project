@@ -1,0 +1,7 @@
+.postCodeStyle {
+  width: 20%;
+  height: 35rem;
+  position: absolute;
+  display: flex;
+  z-index: 3;
+}

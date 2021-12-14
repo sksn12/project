@@ -1,0 +1,51 @@
+.container {
+  position: relative;
+  z-index: 3;
+  width: 50%;
+  height: 50%;
+  background: rgb(195, 213, 223);
+  background: linear-gradient(
+    180deg,
+    rgba(195, 213, 223, 1) 0%,
+    rgba(108, 108, 108, 1) 100%
+  );
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.middle {
+  width: 100%;
+  height: 80%;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.p {
+  color: white;
+}
+.line {
+  width: 80%;
+  height: 1px;
+  background-color: black;
+}
+.btns {
+  width: 80%;
+  display: flex;
+  flex-direction: row;
+  height: 30%;
+  justify-content: center;
+  align-items: center;
+}
+.btn {
+  width: 50%;
+  border: none;
+  background-color: white;
+  margin-left: 0.2rem;
+  cursor: pointer;
+}
+.btn:hover {
+  transform: scale(1.1);
+}

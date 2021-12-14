@@ -1,0 +1,298 @@
+.post {
+  width: 100%;
+  height: 100%;
+  background-color: rgb(22, 22, 22);
+  position: absolute;
+  z-index: 2;
+  /* margin-left: 33%;
+    margin-top: 15%; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  /* background-color: red; */
+  width: 98%;
+  height: 88%;
+  align-items: center;
+}
+.header {
+  display: flex;
+  flex-direction: row;
+  margin-top: 0.2rem;
+  width: 98%;
+  height: 65%;
+}
+.ImageUploader {
+  width: 60%;
+  height: 100%;
+  position: relative;
+  /* background-color: royalblue; */
+}
+.write {
+  width: 40%;
+  height: 100%;
+  margin-left: 0;
+  /* background-color: springgreen; */
+}
+
+.btn {
+  width: 1.7rem;
+  height: 1.7rem;
+  background-color: grey;
+  display: flex;
+  margin: 0.4rem;
+  margin-right: 0;
+  padding: 0.5rem;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  transition: transform ease-in 2ms;
+}
+.Edit:hover {
+  transform: scale(1.1);
+}
+.DeleteButton {
+  height: 8%;
+  margin-top: 0;
+  width: 100%;
+  display: flex;
+  flex-direction: row-reverse;
+}
+.RealDeleteButton {
+  width: 6%;
+  height: 100%;
+  background-color: rgb(22, 22, 22);
+  border: none;
+  z-index: 2;
+}
+
+.erase {
+  width: 1.8rem;
+  height: 1.8rem;
+  background-color: grey;
+  display: flex;
+  margin-top: 0.15rem;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  z-index: 2;
+}
+.erase:hover {
+  transform: scale(1.1);
+}
+
+/* 모바일 728px까지 */
+@media screen and (max-width: 728px) {
+  .post {
+    width: 70%;
+    height: 30%;
+    margin-left: 16%;
+    margin-top: 60%;
+  }
+}
+
+.DeleteButton2 {
+  position: relative;
+  width: 2rem;
+  height: 2rem;
+  z-index: 1;
+  display: flex;
+}
+
+.footer {
+  margin-top: 0.2rem;
+  width: 98%;
+  height: 30%;
+  display: flex;
+  flex-direction: row;
+}
+.footerRight {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+  height: 100%;
+}
+.footerLeft {
+  z-index: 1;
+  width: 60%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+}
+.footerLeft_Left {
+  width: 50%;
+}
+.footerLeft_right {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+}
+.footerLeft_right_tag {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  cursor: pointer;
+}
+
+.ratings {
+  display: flex;
+  flex-direction: column;
+  height: 30%;
+  margin-top: 0.2rem;
+}
+.footer_p {
+  margin: 0.2rem;
+  color: rgb(245, 238, 238);
+}
+.rating {
+  size: 1px;
+}
+
+/* content */
+.write_container {
+  width: 100%;
+  height: 100%;
+}
+.write_write {
+  width: 98%;
+  height: 97%;
+  padding: 0.2rem;
+  padding-top: 0;
+}
+.write_p {
+  color: white;
+  margin: 0;
+  padding-left: 0.3rem;
+}
+
+.img {
+  width: 100%;
+  height: 100%;
+}
+
+.footerRight_address {
+  display: flex;
+  flex-direction: row-reverse;
+  width: 100%;
+  height: 25%;
+  align-items: center;
+  color: greenyellow;
+}
+.categoryName {
+  color: white;
+}
+
+.Btns {
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.buttonPrev,
+.buttonNext {
+  background-color: #333;
+  vertical-align: middle;
+  color: #eeeeee;
+}
+
+.btn {
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+  border-style: none;
+  background: none;
+}
+.thumbnail {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  cursor: pointer;
+}
+
+.spans {
+  position: absolute;
+  top: 0;
+  z-index: 2;
+  font-size: 1.4rem;
+  color: white;
+}
+
+.footerLeft_right_Input {
+  display: flex;
+  flex-direction: column;
+  white-space: nowrap;
+  overflow-x: auto;
+  overflow-y: auto;
+  width: 100%;
+  height: 100%;
+  margin: 0.2rem 0.2rem;
+}
+
+.DivDeleteBox {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.DivDeleteBox2 {
+  width: 50%;
+  height: 60%;
+}
+
+.DeleteBox {
+  width: 100%;
+  height: 100%;
+  background: rgb(195, 213, 223);
+  background: linear-gradient(
+    180deg,
+    rgba(195, 213, 223, 1) 0%,
+    rgba(108, 108, 108, 1) 100%
+  );
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  z-index: 2;
+}
+.DeleteBoxTitle {
+  color: white;
+  text-align: center;
+}
+.DeleteBoxLine {
+  height: 1px;
+  width: 80%;
+  background: white;
+}
+.DeleteBoxBtns {
+  width: 80%;
+  height: 30%;
+  margin-top: 1rem;
+}
+
+.DeleteBoxYes {
+  width: 49%;
+  margin-left: 0.3rem;
+  height: 100%;
+  border: none;
+  border-radius: 50%;
+}
+.DeleteBoxYes:hover {
+  transform: scale(1.1);
+}
+.DeleteBoxNo:hover {
+  transform: scale(1.1);
+}
+.DeleteBoxNo {
+  width: 49%;
+  height: 100%;
+  border: none;
+  border-radius: 50%;
+}

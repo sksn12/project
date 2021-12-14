@@ -1,0 +1,15 @@
+.container {
+  width: 100%;
+  height: 100%;
+}
+.input {
+  width: 100%;
+  height: 100%;
+  outline: none;
+}
+
+.write {
+  width: 98%;
+  height: 99%;
+  background-color: white;
+}

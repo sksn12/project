@@ -1,0 +1,20 @@
+.input_comment {
+  width: 100%;
+  border: none;
+}
+.comment {
+  color: white;
+  margin: 0;
+}
+.div {
+  display: flex;
+  width: 100%;
+}
+.btn {
+  border: none;
+  background: none;
+  height: 100%;
+}
+.btn:hover {
+  transform: scale(1.3);
+}

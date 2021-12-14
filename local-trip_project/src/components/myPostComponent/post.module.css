@@ -1,0 +1,377 @@
+.total_container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.confirmation {
+  width: 50%;
+  height: 50%;
+  background: rgb(195, 213, 223);
+  background: linear-gradient(
+    180deg,
+    rgba(195, 213, 223, 1) 0%,
+    rgba(108, 108, 108, 1) 100%
+  );
+  position: absolute;
+  z-index: 2;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.confirmation_mid {
+  width: 100%;
+  height: 85%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.confirmation_title {
+  color: white;
+}
+.confirmation_btns {
+  width: 80%;
+  height: 30%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.confirmation_btn {
+  width: 38%;
+  background-color: ghostwhite;
+  height: 80%;
+  border: none;
+  margin-left: 5%;
+  cursor: pointer;
+  border-radius: 50%;
+}
+.confirmation_btn:hover {
+  transform: scale(1.1);
+}
+.confirmation_line {
+  width: 80%;
+  height: 1px;
+  background-color: black;
+  margin-bottom: 1%;
+}
+
+.post {
+  width: 100%;
+  height: 100%;
+  background-color: rgb(22, 22, 22);
+  position: absolute;
+  z-index: 2;
+  /* margin-left: 33%;
+    margin-top: 15%; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  /* background-color: red; */
+  width: 98%;
+  height: 88%;
+  align-items: center;
+}
+.header {
+  display: flex;
+  flex-direction: row;
+  margin-top: 0.2rem;
+  width: 98%;
+  height: 65%;
+}
+.ImageUploader {
+  width: 50%;
+  height: 100%;
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+}
+.ImageUploader2 {
+  width: 50%;
+  height: 100%;
+  position: relative;
+  background-color: gray;
+}
+.write {
+  width: 50%;
+  height: 100%;
+  margin-left: 0;
+  /* background-color: springgreen; */
+}
+
+.btn {
+  width: 1.7rem;
+  height: 1.7rem;
+  background-color: grey;
+  display: flex;
+  margin: 0.4rem;
+  margin-right: 0;
+  padding: 0.5rem;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  transition: transform ease-in 2ms;
+}
+.Edit:hover {
+  transform: scale(1.1);
+}
+.DeleteButton {
+  height: 8%;
+  width: 96%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 0.3rem;
+}
+.year {
+  font-size: 100%;
+  margin: 0;
+  color: white;
+}
+
+/* 모바일 728px까지 */
+@media screen and (max-width: 728px) {
+  .post {
+    width: 70%;
+    height: 30%;
+    margin-left: 16%;
+    margin-top: 60%;
+  }
+}
+
+.DeleteButton2 {
+  position: relative;
+  width: 2rem;
+  height: 2rem;
+  z-index: 1;
+  display: flex;
+}
+
+.footer {
+  margin-top: 0.2rem;
+  width: 98%;
+  height: 30%;
+  display: flex;
+  flex-direction: row;
+}
+.footerRight {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+  height: 100%;
+}
+.footerLeft {
+  z-index: 1;
+  width: 60%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+}
+.footerLeft_Left {
+  width: 50%;
+}
+.footerLeft_right {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+}
+.footerLeft_right_tag {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  cursor: pointer;
+}
+
+.ratings {
+  display: flex;
+  flex-direction: column;
+  height: 30%;
+  margin-top: 0.2rem;
+}
+.footer_p {
+  margin: 0.2rem;
+  color: rgb(245, 238, 238);
+}
+.rating {
+  size: 1px;
+}
+
+/* content */
+.write_container {
+  width: 100%;
+  height: 100%;
+}
+.write_write {
+  width: 98%;
+  height: 97%;
+  padding: 0.2rem;
+  padding-top: 0;
+}
+.write_p {
+  color: white;
+  margin: 0;
+  padding-left: 0.3rem;
+}
+
+.img {
+  width: 100%;
+  height: 100%;
+}
+
+.footerRight_address {
+  display: flex;
+  flex-direction: row-reverse;
+  width: 100%;
+  height: 25%;
+  align-items: center;
+  color: greenyellow;
+}
+
+.footer_p_address {
+  margin-left: 0.2rem;
+  cursor: pointer;
+}
+.footer_p_address:hover {
+  transform: scale(1.1);
+}
+.footer_p_addressX {
+  margin-left: 0.2rem;
+}
+
+.footerRight_cartegory {
+  margin-top: 0.2rem;
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.footer_p_cartegory {
+  margin: 0.2rem;
+  color: greenyellow;
+}
+
+.btns {
+  display: flex;
+  flex-direction: row;
+}
+.correct {
+  width: 1.8rem;
+  height: 1.8rem;
+  background-color: grey;
+  display: flex;
+  margin: 0;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  transition: transform ease-in 2ms;
+  margin-right: 0.2rem;
+}
+.correct:hover {
+  transform: scale(1.3);
+}
+.label {
+  color: white;
+}
+.select {
+  width: 80%;
+}
+.Btns {
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.buttonPrev,
+.buttonNext {
+  background-color: #333;
+  vertical-align: middle;
+  color: #eeeeee;
+  cursor: pointer;
+}
+
+.btn {
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+  border-style: none;
+  background: none;
+}
+.thumbnail {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  cursor: pointer;
+}
+
+.spans {
+  position: absolute;
+  top: 0;
+  z-index: 2;
+  font-size: 1.4rem;
+  color: white;
+}
+
+.footerLeft_right_Input {
+  display: flex;
+  flex-direction: column;
+  white-space: nowrap;
+  overflow-x: auto;
+  overflow-y: auto;
+  width: 100%;
+  height: 100%;
+  margin: 0.2rem 0.2rem;
+}
+
+.swiper {
+  width: 300px;
+  height: 300px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  margin-left: -150px;
+  margin-top: -150px;
+}
+
+.swiper-slide {
+  background-position: center;
+  background-size: cover;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+}
+
+.address {
+  position: relative;
+  z-index: 2;
+  width: 100%;
+  height: 100%;
+}
+.deleteBtn {
+  width: 8%;
+  height: 10%;
+  background-color: gray;
+}
+.deleteBtn:hover {
+  transform: scale(1.1);
+}
+.checkitOut {
+  width: 30%;
+  margin-top: 0.2rem;
+  background-color: greenyellow;
+  border: none;
+  cursor: pointer;
+}
+.checkitOut:hover {
+  transform: scale(1.1);
+}
