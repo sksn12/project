@@ -1,0 +1,24 @@
+.add {
+  width: 100%;
+  height: 100%;
+  border-radius: 20px;
+  background-color: antiquewhite;
+  border: 2px solid black;
+  font-size: 1rem;
+  font-weight: bold;
+}
+.add:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+}
+.container {
+  width: 80%;
+  height: 15%;
+  position: absolute;
+  bottom: 0;
+  margin-bottom: 0.2rem;
+  margin-left: 1.5rem;
+}
+.input {
+  display: none;
+}

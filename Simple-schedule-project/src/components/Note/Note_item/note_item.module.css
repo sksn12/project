@@ -1,0 +1,5 @@
+.p {
+  margin-left: 1em;
+  display: flex;
+  justify-content: space-between;
+}

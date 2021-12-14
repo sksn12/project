@@ -1,0 +1,13 @@
+.Btn {
+  width: 32%;
+  height: 100%;
+  border-radius: 1.4rem;
+  background-color: #1e2336;
+  color: white;
+  font-size: 0.5rem;
+  font-weight: bold;
+  align-items: center;
+  border: 3px solid black;
+  cursor: pointer;
+  margin-right: 0.4rem;
+}

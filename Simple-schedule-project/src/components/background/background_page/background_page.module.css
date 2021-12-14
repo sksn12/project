@@ -1,0 +1,10 @@
+.page {
+  width: 18rem;
+  height: 18rem;
+  background-color: wheat;
+  position: relative;
+  padding: 0.2rem;
+}
+.ImageList {
+  overflow-y: auto;
+}

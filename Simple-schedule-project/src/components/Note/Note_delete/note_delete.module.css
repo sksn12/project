@@ -1,0 +1,18 @@
+.delete {
+  z-index: 2;
+  width: 2rem;
+  height: 2rem;
+  background: none;
+  right: 0;
+  position: absolute;
+  margin-top: 0.2em;
+  margin-right: 0.2em;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 1.5em;
+  color: #b18041;
+}
+.delete:hover {
+  transform: scale(1.3);
+}
