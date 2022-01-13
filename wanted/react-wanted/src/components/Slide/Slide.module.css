@@ -1,0 +1,94 @@
+@value mediaQuery1200 from "../../common/size.css";
+
+.Slide {
+  width: 100%;
+  height: 44%;
+  display: flex;
+}
+
+.Slide_Track {
+  width: 100%;
+  height: 100%;
+  background-color: brown;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: nowrap;
+}
+
+.Slide_List {
+  width: 75%;
+  height: 100%;
+  background-color: burlywood;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Slide_Now {
+  width: 95%;
+  height: 90%;
+  position: relative;
+}
+
+.Slide_Img {
+  width: 100%;
+  height: 100%;
+  border-radius: 5px;
+  position: absolute;
+  cursor: pointer;
+}
+.Slide_Img_Message {
+  width: 30%;
+  height: 45%;
+  margin-left: 2%;
+  margin-top: 13%;
+  background-color: white;
+  position: absolute;
+  z-index: 1;
+  border-radius: 4px;
+}
+.Slide_Img_Message_Top {
+  width: 90%;
+  height: 50%;
+  margin: auto;
+}
+.Slide_Img_Message_Top_P {
+  margin-top: -15px;
+  font-size: 14px;
+}
+.Slide_Img_Message_Line {
+  width: 100%;
+  height: 1px;
+  background-color: rgb(197, 197, 197);
+}
+
+.Slide_Img_Message_Bottom {
+  width: 90%;
+  height: 15%;
+  margin: auto;
+}
+.Slide_Img_Message_Bottom_P {
+  color: blue;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.Btn_pre {
+  height: 60px;
+  width: 30px;
+  border-radius: 25px;
+  opacity: 0.7;
+  border: none;
+}
+.Btn_next {
+  height: 20%;
+  width: 30px;
+  border-radius: 25px;
+  opacity: 0.7;
+  border: none;
+}
+@media screen and (max-width: mediaQuery1200) {
+}
